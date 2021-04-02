@@ -1,6 +1,8 @@
 import React from "react";
-import { Layout, Typography, Tag, Table } from "antd";
+import { Layout, Typography, Tag, Table, Image } from "antd";
 import "./App.less";
+import Logo from "./assets/logo.png";
+
 
 const { Content } = Layout;
 const { Title } = Typography;
@@ -38,7 +40,7 @@ const App = () => {
     },
     {
       title: "Discord",
-      url: "https://deka.finance",
+      url: "https://discord.gg/HASWTEbVa8",
       tags: ["community"],
     },
     {
@@ -48,12 +50,12 @@ const App = () => {
     },
     {
       title: "Telegram - Announcements",
-      url: "https://deka.finance",
+      url: "https://t.me/dekafinanceannouncements",
       tags: ["community"],
     },
     {
       title: "Telegram - Official",
-      url: "https://deka.finance",
+      url: "https://t.me/dekafinanceofficial",
       tags: ["community"],
     },
     {
@@ -63,28 +65,28 @@ const App = () => {
     },
     {
       title: "Smart Contract - App",
-      url: "https://deka.finance",
+      url: "https://bscscan.com/",
       tags: ["code"],
     },
     {
       title: "Smart Contract - Protocol",
-      url: "https://deka.finance",
+      url: "https://bscscan.com/",
       tags: ["code"],
     },
     {
       title: "Smart Contract - Token",
-      url: "https://deka.finance",
+      url: "https://bscscan.com/",
       tags: ["code"],
     },
     {
       title: "Dodo - Crowdpooling",
-      url: "https://deka.finance",
-      tags: ["market"],
+      url: "https://app.dodoex.io/",
+      tags: ["market", "not live"],
     },
     {
       title: "Dodo - Liquidity Pool",
-      url: "https://deka.finance",
-      tags: ["market"],
+      url: "https://app.dodoex.io/",
+      tags: ["market", "not live"],
     },
   ];
 
@@ -111,6 +113,14 @@ const App = () => {
       render: (tags) => (
         <>
           {tags.map((tag) => {
+            if (tag === "not live") {
+              return (
+                <Tag className="tag-lb tag-lb-nl" key={tag}>
+                  {tag.toUpperCase()}
+                </Tag>
+              );
+            }
+
             return (
               <Tag className="tag-lb" key={tag}>
                 {tag.toUpperCase()}
@@ -126,6 +136,11 @@ const App = () => {
     <div className="App">
       <Layout>
         <Content className="content-lb">
+          <Image
+            height={64}
+            src={Logo}
+            preview={false}
+          />
           <Title>{"deka link board".toUpperCase()}</Title>
           <Table
             className="table-lb"
