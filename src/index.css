@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 700;
+}
+
+
+/* Custom CSS */
+.tag-lb {
+  background-color: rgba(59,240,161, 0.4) !important;
+  border: 1px solid rgb(59,240,161) !important;
+}
+
+.content-lb {
+  margin: 64px;
+}
