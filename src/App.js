@@ -26,7 +26,7 @@ const App = () => {
     {
       title: "Stats",
       url: "https://stats.deka.finance",
-      tags: ["common"],
+      tags: ["common", "not live"],
     },
     {
       title: "Website",
@@ -66,17 +66,17 @@ const App = () => {
     {
       title: "Smart Contract - App",
       url: "https://bscscan.com/",
-      tags: ["code"],
+      tags: ["code", "not live"],
     },
     {
       title: "Smart Contract - Protocol",
       url: "https://bscscan.com/",
-      tags: ["code"],
+      tags: ["code", "not live"],
     },
     {
       title: "Smart Contract - Token",
       url: "https://bscscan.com/",
-      tags: ["code"],
+      tags: ["code", "not live"],
     },
     {
       title: "Dodo - Crowdpooling",
