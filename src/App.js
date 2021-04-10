@@ -11,7 +11,7 @@ const App = () => {
     {
       title: "App",
       url: "https://app.deka.finance",
-      tags: ["common"],
+      tags: ["common", "not live"],
     },
     {
       title: "Blog",
@@ -64,19 +64,19 @@ const App = () => {
       tags: ["code"],
     },
     {
-      title: "Smart Contract - App",
-      url: "https://bscscan.com/",
-      tags: ["code", "not live"],
+      title: "Smart Contract - dApp",
+      url: "https://bscscan.com/address/0xEA9776dAA746d0d29424ff1a251f03c8F95A0693",
+      tags: ["code"],
     },
     {
       title: "Smart Contract - Protocol",
-      url: "https://bscscan.com/",
-      tags: ["code", "not live"],
+      url: "https://bscscan.com/address/0x88629f11e22861043B2E701207a19Aeb743562F9",
+      tags: ["code"],
     },
     {
       title: "Smart Contract - Token",
-      url: "https://bscscan.com/",
-      tags: ["code", "not live"],
+      url: "https://bscscan.com/address/0x992d63281EbF61061fd79623F294d0F0296BeF81",
+      tags: ["code"],
     },
     {
       title: "Dodo - Crowdpooling",
