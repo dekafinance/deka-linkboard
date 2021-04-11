@@ -11,7 +11,7 @@ const App = () => {
     {
       title: "App",
       url: "https://app.deka.finance",
-      tags: ["common", "not live"],
+      tags: ["common", "countdown"],
     },
     {
       title: "Blog",
@@ -80,8 +80,8 @@ const App = () => {
     },
     {
       title: "Dodo - Crowdpooling",
-      url: "https://app.dodoex.io/",
-      tags: ["market", "not live"],
+      url: "https://app.dodoex.io/cp/join/0x34986383c7e9ee7e74f9eb660c320fea5cb2bf2f?network=bsc-mainnet",
+      tags: ["market"],
     },
     {
       title: "Dodo - Liquidity Pool",
