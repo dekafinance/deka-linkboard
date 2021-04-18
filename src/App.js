@@ -85,8 +85,8 @@ const App = () => {
     },
     {
       title: "Dodo - Liquidity Pool",
-      url: "https://app.dodoex.io/",
-      tags: ["market", "not live"],
+      url: "https://app.dodoex.io/exchange/BUSD-DKA",
+      tags: ["market"],
     },
   ];
 
