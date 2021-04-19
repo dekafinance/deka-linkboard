@@ -64,29 +64,44 @@ const App = () => {
       tags: ["code"],
     },
     {
-      title: "Smart Contract - dApp",
+      title: "Smart Contract - dApp (v.2)",
+      url: "https://bscscan.com/address/0x9D8d758Bfc999d0404718c7b95381365Aa40C6D5",
+      tags: ["code"],
+    },
+    {
+      title: "Smart Contract - Protocol (v.2)",
+      url: "https://bscscan.com/address/0x0757733c26f1364Ae096E6F21eeE6281789ab7cD",
+      tags: ["code"],
+    },
+    {
+      title: "Smart Contract - Token (v.2)",
+      url: "https://bscscan.com/address/0xcc043fF110ec01beB2e33C2713Af5924A19aB723",
+      tags: ["code"],
+    },
+    {
+      title: "Smart Contract - dApp (v.1)",
       url: "https://bscscan.com/address/0xEA9776dAA746d0d29424ff1a251f03c8F95A0693",
       tags: ["code"],
     },
     {
-      title: "Smart Contract - Protocol",
+      title: "Smart Contract - Protocol (v.1)",
       url: "https://bscscan.com/address/0x88629f11e22861043B2E701207a19Aeb743562F9",
       tags: ["code"],
     },
     {
-      title: "Smart Contract - Token",
+      title: "Smart Contract - Token (v.1)",
       url: "https://bscscan.com/address/0x992d63281EbF61061fd79623F294d0F0296BeF81",
       tags: ["code"],
     },
     {
-      title: "Dodo - Crowdpooling",
-      url: "https://app.dodoex.io/cp/join/0x34986383c7e9ee7e74f9eb660c320fea5cb2bf2f?network=bsc-mainnet",
+      title: "Pancake Swap - Liquidity Pool (BUSD/DKA)",
+      url: "https://exchange.pancakeswap.finance/#/swap",
       tags: ["market"],
     },
     {
-      title: "Dodo - Liquidity Pool",
-      url: "https://app.dodoex.io/exchange/BUSD-DKA",
-      tags: ["market"],
+      title: "Pancake Swap - Liquidity Pool (BUSD/DKA) [Smart Contract]",
+      url: "https://bscscan.com/address/0x55d1ec71bdbff5152e8e2816f0263242986749e4",
+      tags: ["market, code"],
     },
   ];
 
